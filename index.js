@@ -21,7 +21,7 @@ bot.login(process.env.TOKEN);
 
 bot.on('message', message => {
  
-    if (message, content === prefix + "help"){
+    if (message.content === prefix + "help"){
         var help_embed = new Discord.RichEmbed()
             .setTitle(`Iwa a si ${message.author.username} les commandes homa`)
             .setColor('#F4D03F')
