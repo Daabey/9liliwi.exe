@@ -26,8 +26,9 @@ bot.on('message', message => {
             .setTitle(`Iwa a si ${message.author.username} les commandes homa`)
             .setColor('#FF0000')
             .setDescription("7aliyan 7it lbot ba9i a Version Alpha kayna commande w7da o li hia ")
-            .addField("+xp:had cmd tate wrik l xp o niveau dyalk ")
-            .addField("hsdfsfsfsdf")
+            .addField("+xp")
+            .setDescription("had cmd tate wrik l xp o niveau dyalk")
+            .addField("Soon!!")
             .setFooter("Dev By ShaZem :smile: ")
         message.channel.send({embed: help_embed});   
     
