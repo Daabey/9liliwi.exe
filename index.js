@@ -24,11 +24,11 @@ bot.on('message', message => {
     if (message.content === prefix + "help"){
         var help_embed = new Discord.RichEmbed()
             .setTitle(`Iwa a si ${message.author.username} les commandes homa`)
-            .setColor('#F4D03F')
+            .setColor('#FF0000')
             .setDescription("7aliyan 7it lbot ba9i a Version Alpha kayna commande w7da o li hia ")
-            .addField(prefix,"+xp:had cmd tate wrik l xp o niveau dyalk ")
-            .addField(prefix,"hsdfsfsfsdf")
-            .setFooter("Enjoy :p Daabey <3")
+            .addField("+xp:had cmd tate wrik l xp o niveau dyalk ")
+            .addField("hsdfsfsfsdf")
+            .setFooter("Dev By ShaZem :smile: ")
         message.channel.send({embed: help_embed});   
     
     }
